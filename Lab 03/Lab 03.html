@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="UTF-8">
+
+<title>KAU Frame</title>
+<style>
+    .frame-container {
+      border-top: 30px solid skyblue ;
+      border-right: 30px solid lightpink; 
+      border-bottom: 30px solid lightgreen; 
+      border-left: 30px solid  #ffefd5; 
+      display: inline-block; 
+      padding: 10px; 
+    }
+  
+    
+  </style>
+  <div id="header">
+    <span class="myclass1">Every</span>
+    <span class="myclass2">one can</span>
+    <span class="myclass3">success.</span>
+  </div>
+  <p> One machine can do the work of fifty ordinary men.
+    <span class="myclass4">No machine can do the work of one extraordinary man.</span>
+  </p>
+
+  <style>
+     p > span { color: red; }
+     #header span { color: pink; }
+     span { color: green; }
+     #header *:last-child { color: orange; }
+     #header span:first-child:hover { color: blue; }
+  </style>
+  <table border="4">
+    <tr>
+        <th>color</th>
+        <th>color when mouse over</th>
+    </tr>
+    <tr>
+        <td><span class="myclass1">green</span></td>
+        <td><span class="myclass1" style="color: blue;">blue</span></td>
+    </tr>
+    <tr>
+        <td><span class="myclass2">green</span></td>
+        <td><span class="myclass2" style="color: blue;">blue</span></td>
+    </tr>
+    <tr>
+        <td><span class="myclass3">green</span></td>
+        <td><span class="myclass3" style="color: blue;">blue</span></td>
+    </tr>
+    <tr>
+        <td><span class="myclass4">red</span></td>
+        <td><span class="myclass4" style="color: red;">red</span></td>
+    </tr>
+</table>
+
+</head>
+<body>
+
+<div class="frame-container">
+  <img src="https://cpit405.gitlab.io/images/KAU_logo.png" alt="KAU Logo">
+</div>
+
+</body>
+</html>
